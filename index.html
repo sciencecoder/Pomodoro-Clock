@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+
+<html>
+   <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+      <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+      <link rel='stylesheet' href="style.css"> 
+         <title>Adam Orr's Portfolio</title>
+   </head>
+   <body>
+  <h1 class='text-center heading'>Pomodoro Clock</h1>
+  <div class='container controls'>
+    <div class='row text flex-container'>
+      <div class='col-md-3 col-md-offset-4 col-sm-3 col-sm-offset-4 col-xs-3 col-xs-offset-3 flex'>
+        <h4>Break Length</h4>
+        <div class='col-xs-3' id='break-length'><span class='subtract'>-</span><span class='number'>5</span><span class='add'>+</span></div>
+      </div>
+      <div class='col-md-3 col-sm-3 col-xs-3 custom-col-offset flex'>
+        <h4>Session Length</h4>
+        <div class='col-xs-3' id='session-length'><span class='subtract'>-</span><span class='number'>25</span><span class='add'>+</span></div>
+      </div>
+    </div>
+  </div>
+  <div class='circle container'>
+    <div id='circle'>
+    <div class='row'>
+      <h1 class='col-md-12 col-sm-12 col-xs-12 text-center space' id='text'>Session</h1>
+    </div>
+    <div class='row'>
+      <h1 class='col-md-12 col-sm-12 col-xs-12 text-center space' id='time'>25</h1>
+    </div>
+    </div>
+     <button class='btn custom-col' id='start'>Start</button>
+
+  
+    <button class='btn custom-col' id='reset'>Reset</button>
+  </div>
+ 
+
+
+<audio id='beep'>
+  <source src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3" type="audio/mpeg">
+ 
+ 
+</audio>
+
+
+
+
+  
+   <script   src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
+    <script src='app.js'></script>
+</body>   
+        
+</html>
