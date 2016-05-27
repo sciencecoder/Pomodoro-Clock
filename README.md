@@ -1,2 +1,2 @@
 # Pomodoro-Clock
-A jQuery timer with with customizable breaks and sessions
+A jQuery timer with customizable breaks and sessions
