@@ -1,0 +1,83 @@
+
+body {
+  background-color: #001a33;
+  color: white;
+}
+
+.heading {
+  font-family: pacifico;
+  font-size: 4em;
+}
+
+span {
+  font-size: 2em;
+}
+
+.text {
+  margin-top: 5%;
+}
+
+.number {
+  margin: auto 20px;
+  font-size: 2.5em;
+}
+
+input {
+  margin-top: 5%;
+}
+
+
+.add, .subtract {
+  cursor: pointer;
+}
+#start, #reset {
+  background-color: green;
+    margin-top: 25px;
+   
+}
+
+.custom-col {
+  width: 100px;
+ margin-left: 33%;
+}
+
+@media screen and (max-width: 500px) {
+  .flex-container {
+    display: flex;
+    text-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .custom-col-offset {
+    margin-left: 25%;
+  }
+}
+
+
+/*
+Circle styles
+*/
+#circle {
+  margin-bottom: 15%;
+}
+.circle {
+  margin-top: 10vh;
+  width: 300px;  
+  height: 300px;
+  border-radius: 50%;
+  border: 5px solid green;
+}
+
+.space {
+  padding-top: 20%;
+  font-size: 3em;
+}
+
+
+
+
+
+
+
+
+
