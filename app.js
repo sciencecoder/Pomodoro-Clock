@@ -25,7 +25,7 @@ $('.add').on('click', function() {
   breakNum = parseInt($('#break-length .number').text());
 })
 
-//COUNT DOWN
+//Count down source: https://www.sitepoint.com/build-javascript-countdown-timer-no-dependencies/
 
 function getTimeRemaining(endtime) {
   var t = Date.parse(endtime) - Date.parse(new Date());
@@ -91,5 +91,4 @@ $('#start').on('click', function() {
   $('#reset').fadeIn(2000);
  
 });
-
 
